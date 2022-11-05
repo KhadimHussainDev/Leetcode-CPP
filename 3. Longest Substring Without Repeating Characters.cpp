@@ -14,7 +14,6 @@ public:
 			else
 			{
 				set.erase(s[i++]); 
-			
 			}
 		}
 		return ans;
