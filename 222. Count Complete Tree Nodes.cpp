@@ -16,7 +16,6 @@ class Solution
     {
         if (!root)
             return 0;
-
         return 1 + left_height(root->left);
     }
     int right_height(TreeNode *root)
