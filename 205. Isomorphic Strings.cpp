@@ -5,7 +5,6 @@ public:
     {
         unordered_map<char, char> map;
         unordered_map<char, char> map2;
-
         for (int i = 0; i < s.size(); i++)
         {
             if (map.find(s[i]) == map.end())
