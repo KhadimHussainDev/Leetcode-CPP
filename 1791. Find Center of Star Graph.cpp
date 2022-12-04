@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int findCenter(vector<vector<int>>& edges) {
+    int findCenter(vector<vector<int>>& edges){
         int size=edges.size()+1;
         vector<int>degrees(size+1);
         int star=0;int largest=0;
