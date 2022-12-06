@@ -5,10 +5,8 @@ public:
             return n;
         }
         unordered_map<int,int>map;
-        for(auto x:trust){
-            
+        for(auto x:trust){    
             map[x[1]]++;
-
         }
         int largest=0,judge=-1;
         for(auto a:map){
