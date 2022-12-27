@@ -8,11 +8,7 @@ public:
         {
             if (s[i] != s[j])
             {
-                if (isPalindrome(s, i, j - 1) || isPalindrome(s, i + 1, j))
-                {
-                    return true;
-                }
-                return false;
+                return isPalindrome(s, i, j - 1) || isPalindrome(s, i + 1, j);
             }
             i++;
             j--;
